@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/front-end-vite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/front-end-vite/marhabaa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/marhaba" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vite-marhab/marhabaa" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,28 @@
+version: '3.9'
+services:
+  backend:
+    build: ./api
+    container_name: "backend"
+    ports :
+      - 3000:3000
+    networks:
+      - marhaba-app
+    depends_on:
+      - mongo
+  front-end :
+    build: ./front-end-vite
+    container_name: "front-end"
+    ports:
+      - 5173:5173
+    networks:
+      - marhaba-app
+
+  mongo:
+    image: mongo:3.6.19-xenial
+    ports:
+      - 27017:27017
+    networks:
+      - marhaba-app
+networks:
+  marhaba-app:
+    driver: bridge
